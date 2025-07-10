@@ -1,0 +1,175 @@
+{
+  "welcome": "Bienvenido a la aplicación de Gestión de Vulnerabilidades",
+  "assets": "Activos",
+  "vulnerabilities": "Vulnerabilidades",
+  "dashboard": "Tablero",
+  "footer_description": "Una plataforma de ciberseguridad que te ayuda a encontrar y corregir vulnerabilidades.",
+  "footer_terms": "Términos y condiciones",
+  "footer_privacy": "Política de privacidad",
+  "footer_contact": "Contáctanos",
+  "footer_help": "Ayuda",
+  "footer_about": "Acerca de nosotros",
+  "footer_legal": "Legal",
+  "footer_copyright": "© 2025 VulnQ.com. Todos los derechos reservados.",
+  "header_title": "VulnQ",
+  "header_home": "Inicio",
+  "reports": "Informes",
+  "header_resources": "Recursos",
+  "header_pricing": "Precios",
+  "login": "Iniciar sesión",
+  "signup": "Registrarse",
+  "logo": {
+    "title": "VulnQ"
+  },
+  "menu": {
+    "home": "Inicio",
+    "products": "Productos",
+    "blog": "Blog",
+    "company": "Compañía",
+    "careers": "Carreras",
+    "support": "Soporte",
+    "resources": "Recursos",
+    "pricing": "Precios"
+  },
+  "auth": {
+    "login": "Iniciar sesión",
+    "signup": "Registrarse"
+  },
+  "error_generic": "Ocurrió un error. Por favor, inténtalo de nuevo.",
+
+  "login_heading": "Iniciar sesión",
+  "login_subheading": "Bienvenido de nuevo",
+  "login_button": "Iniciar sesión",
+  "login_google_button": "Iniciar sesión con Google",
+  "login_signup_text": "¿No tienes una cuenta?",
+  "login_email_placeholder": "Ingresa tu correo electrónico",
+  "login_password_placeholder": "Ingresa tu contraseña",
+  "login_forgot_password": "¿Olvidaste tu contraseña?",
+  "login_remember_me": "Recuérdame",
+  "error_email_required": "El correo electrónico es obligatorio.",
+  "error_email_invalid": "Por favor, ingresa una dirección de correo electrónico válida.",
+  "error_password_required": "La contraseña es obligatoria.",
+  "error_password_short": "La contraseña debe tener al menos 6 caracteres.",
+
+  "forgot_password_heading": "Olvidé mi contraseña",
+  "forgot_password_subheading": "Ingresa tu correo electrónico para restablecer tu contraseña",
+  "forgot_password_send_email_button": "Enviar correo electrónico",
+  "forgot_password_back_to_login": "Volver a iniciar sesión",
+  "forgot_password_email_placeholder": "Ingresa el correo electrónico de tu cuenta",
+  "forgot_password_success_message": "Se ha enviado un correo electrónico para restablecer tu contraseña.",
+
+  "signup_heading": "Crear cuenta",
+  "signup_subheading": "Crear una nueva cuenta",
+  "signup_button": "Crear cuenta",
+  "signup_login_text": "¿Ya tienes una cuenta?",
+  "signup_email_placeholder": "Ingresa tu correo electrónico",
+  "signup_password_placeholder": "Ingresa tu contraseña",
+  "signup_confirm_password_placeholder": "Confirma tu contraseña",
+  "signup_terms_text": "Al registrarte, aceptas nuestros Términos de servicio y Política de privacidad.",
+  "signup_googleText": "Registrarse con Google",
+  "signup_name_placeholder": "Ingresa tu nombre",
+  "signup_lastname_placeholder": "Ingresa tu apellido",
+  "signup_phone_placeholder": "Ingresa tu número de teléfono",
+  "loading": "Cargando...",
+  "or": "o",
+  "error_name_required": "El nombre es obligatorio.",
+  "error_lastname_required": "El apellido es obligatorio.",
+  "error_phone_invalid": "Por favor, ingresa un número de teléfono válido.",
+  "signup_success_message": "¡Registro exitoso! Por favor, verifica tu correo electrónico para activar tu cuenta.",
+
+  "assetsForm": {
+    "title": "Crear un Activo",
+    "name": "Nombre del Activo",
+    "vendor": "Proveedor",
+    "model": "Modelo",
+    "description": "Descripción",
+    "type": "Tipo",
+    "ipAddress": "Dirección IP",
+    "macAddress": "Dirección MAC",
+    "location": "Ubicación",
+    "owner": "Propietario",
+    "status": "Estado",
+    "submit": "Agregar Activo",
+    "cancel": "Cancelar",
+    "os": "Sistema Operativo",
+    "success": "Activo agregado exitosamente."
+  },
+  "assetTypes": {
+    "accessPoint": "Punto de Acceso",
+    "car": "Coche",
+    "chair": "Silla",
+    "computer": "Computadora",
+    "server": "Servidor",
+    "creditCard": "Tarjeta de Crédito",
+    "dataStorage": "Almacenamiento de Datos",
+    "externalHardDrive": "Disco Duro Externo",
+    "firewall": "Cortafuegos",
+    "headset": "Auriculares",
+    "ipCamera": "Cámara IP",
+    "keyboard": "Teclado",
+    "monitor": "Monitor",
+    "phone": "Teléfono",
+    "printer": "Impresora",
+    "router": "Router",
+    "streamingMediaDevice": "Dispositivo de Streaming",
+    "switch": "Switch",
+    "tablet": "Tableta",
+    "utm": "UTM",
+    "videoconference": "Videoconferencia"
+  },
+
+  "osTypes": {
+    "windows": "Windows",
+    "linux": "Linux",
+    "macos": "macOS",
+    "android": "Android"
+  },
+
+  "softwareForm": {
+    "title": "Registrar un Software",
+    "softwareName": "Nombre del Software",
+    "version": "Versión",
+    "manufacturer": "Fabricante",
+    "submit": "Añadir Software"
+  },
+
+  "navMain": {
+    "dashboard": "Tablero",
+    "assets": "Activos",
+    "software": "Softwares",
+    "vulnerabilities": "Vulnerabilidades",
+    "team": "Equipo"
+  },
+
+  "navSecondary": {
+    "settings": "Configuración",
+    "help": "Obtener Ayuda",
+    "search": "Buscar"
+  },
+
+  "navDocuments": {
+    "vulnerabilityDatabase": "Repositorio de Vulnerabilidades",
+    "reports": "Informes"
+  },
+
+  "navUser": {
+    "profile": "Perfil",
+    "billing": "Facturación",
+    "notifications": "Notificaciones",
+    "logout": "Cerrar sesión"
+  },
+
+  "help": {
+    "title": "¿Cómo podemos ayudarte?",
+    "placeholder": "Buscar ayuda",
+    "faq": "Preguntas Frecuentes",
+    "contactSupport": "Contactar Soporte",
+    "documentation": "Documentación",
+    "community": "Foro de la Comunidad"
+  },
+  "theme": {
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
+  }
+}

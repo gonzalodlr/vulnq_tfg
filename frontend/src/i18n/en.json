@@ -1,0 +1,178 @@
+{
+  "welcome": "Welcome to the Vulnerability Manager",
+  "assets": "Assets",
+  "vulnerabilities": "Vulnerabilities",
+  "dashboard": "Dashboard",
+
+  "footer_description": "A cibersecurity platform that helps you to find and fix vulnerabilities.",
+  "footer_terms": "Terms and Conditions",
+  "footer_privacy": "Privacy Policy",
+  "footer_contact": "Contact Us",
+  "footer_help": "Help",
+  "footer_about": "About Us",
+  "footer_legal": "Legal",
+  "footer_copyright": "© 2025 VulnQ.com. All rights reserved.",
+  "header_title": "VulnQ",
+  "header_home": "Home",
+  "reports": "Reports",
+  "header_resources": "Resources",
+  "header_pricing": "Pricing",
+  "login": "Login",
+  "signup": "Sign Up",
+  "logo": {
+    "title": "VulnQ"
+  },
+  "menu": {
+    "home": "Home",
+    "products": "Products",
+    "blog": "Blog",
+    "company": "Company",
+    "careers": "Careers",
+    "support": "Support",
+    "resources": "Resources",
+    "pricing": "Pricing"
+  },
+  "auth": {
+    "login": "Login",
+    "signup": "Sign up"
+  },
+  "error_generic": "An error occurred. Please try again.",
+
+  "login_heading": "Login",
+  "login_subheading": "Welcome back",
+  "login_button": "Log in",
+  "login_google_button": "Log in with Google",
+  "login_signup_text": "Don't have an account?",
+  "login_email_placeholder": "Enter your email",
+  "login_password_placeholder": "Enter your password",
+  "login_forgot_password": "Forgot password?",
+  "login_remember_me": "Remember me",
+  "error_email_required": "Email is required.",
+  "error_email_invalid": "Please enter a valid email address.",
+  "error_password_required": "Password is required.",
+  "error_password_short": "Password must be at least 6 characters long.",
+
+  "forgot_password_heading": "Forgot Password",
+  "forgot_password_subheading": "Enter your email to reset your password",
+  "forgot_password_send_email_button": "Send Email",
+  "forgot_password_back_to_login": "Back to Login",
+  "forgot_password_email_placeholder": "Enter your account email",
+  "forgot_password_success_message": "An email has been sent to reset your password.",
+  "forgot_password_error_email_required": "Email is required.",
+
+  "signup_heading": "Create Account",
+  "signup_subheading": "Create a new account",
+  "signup_button": "Create Account",
+  "signup_login_text": "Already have an account?",
+  "signup_email_placeholder": "Enter your email",
+  "signup_password_placeholder": "Enter your password",
+  "signup_confirm_password_placeholder": "Confirm your password",
+  "signup_terms": "I agree to the Terms and Conditions",
+  "signup_googleText": "Sign up with Google",
+  "signup_name_placeholder": "Enter your first name",
+  "signup_lastname_placeholder": "Enter your last name",
+  "signup_phone_placeholder": "Enter your phone number",
+  "loading": "Loading...",
+  "or": "or",
+  "error_name_required": "First name is required.",
+  "error_lastname_required": "Last name is required.",
+  "error_phone_invalid": "Please enter a valid phone number.",
+  "signup_terms_text": "By signing up, you agree to our Terms of Service and Privacy Policy.",
+  "signup_success_message": "Registration successful! Please check your email to activate your account.",
+
+  "assetsForm": {
+    "title": "Create an Asset",
+    "name": "Asset Name",
+    "vendor": "Vendor",
+    "model": "Model",
+    "description": "Description",
+    "type": "Type",
+    "ipAddress": "IP Address",
+    "macAddress": "MAC Address",
+    "location": "Location",
+    "owner": "Owner",
+    "status": "Status",
+    "submit": "Add Asset",
+    "cancel": "Cancel",
+    "os": "Operating System",
+    "success": "Asset added successfully."
+  },
+  "assetTypes": {
+    "accessPoint": "Access Point",
+    "car": "Car",
+    "chair": "Chair",
+    "computer": "Computer",
+    "creditCard": "Credit Card",
+    "dataStorage": "Data Storage",
+    "server": "Server",
+    "externalHardDrive": "External Hard Drive",
+    "firewall": "Firewall",
+    "headset": "Headset",
+    "ipCamera": "IP Camera",
+    "keyboard": "Keyboard",
+    "monitor": "Monitor",
+    "phone": "Phone",
+    "printer": "Printer",
+    "router": "Router",
+    "streamingMediaDevice": "Streaming Media Device",
+    "switch": "Switch",
+    "tablet": "Tablet",
+    "utm": "UTM",
+    "videoconference": "Video Conference"
+  },
+  "osTypes": {
+    "windows": "Windows",
+    "linux": "Linux",
+    "macos": "macOS",
+    "android": "Android"
+  },
+
+  "softwareForm": {
+    "title": "Register Software",
+    "softwareName": "Software Name",
+    "version": "Version",
+    "manufacturer": "Manufacturer",
+    "submit": "Register Software"
+  },
+
+  "navMain": {
+    "dashboard": "Dashboard",
+    "assets": "Assets",
+    "software": "Softwares",
+    "vulnerabilities": "Vulnerabilities",
+    "team": "Team"
+  },
+
+  "navSecondary": {
+    "settings": "Settings",
+    "help": "Get Help",
+    "search": "Search"
+  },
+
+  "navDocuments": {
+    "vulnerabilityDatabase": "Vulnerability Database",
+    "reports": "Reports"
+  },
+
+  "navUser": {
+    "profile": "Profile",
+    "billing": "Billing",
+    "notifications": "Notifications",
+    "logout": "Logout"
+  },
+
+  "help": {
+    "title": "How can we help you?",
+    "placeholder": "Search for help",
+    "faq": "Frequently Asked Questions",
+    "contactSupport": "Contact Support",
+    "documentation": "Documentation",
+    "community": "Community Forum"
+  },
+
+  "theme": {
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
+  }
+}

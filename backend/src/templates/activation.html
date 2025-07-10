@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Account Activation</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f7f9fa;
+                color: #333;
+                margin: 0;
+                padding: 40px;
+            }
+            .container {
+                background: #fff;
+                max-width: 500px;
+                margin: 40px auto;
+                padding: 32px 24px;
+                border-radius: 8px;
+                box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+            }
+            h1 {
+                color: #2a7ae2;
+                margin-bottom: 16px;
+            }
+            h2 {
+                color: #27ae60;
+                background: #eafaf1;
+                padding: 12px 0;
+                border-radius: 6px;
+                text-align: center;
+                letter-spacing: 2px;
+                margin: 24px 0 16px 0;
+            }
+            a {
+                display: inline-block;
+                background: #2a7ae2;
+                color: #fff !important;
+                text-decoration: none;
+                padding: 12px 24px;
+                border-radius: 5px;
+                margin: 12px 0;
+                font-weight: bold;
+                transition: background 0.2s;
+            }
+            a:hover {
+                background: #1d5bbf;
+            }
+            p {
+                margin: 12px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Account Activation</h1>
+            <p>Hi,</p>
+            <p>To activate your account, please use the following activation code:</p>
+            <h2>{{ACTIVATION_CODE}}</h2>
+            <p>Or click on the following link:</p>
+            <a href="{{ACTIVATION_LINK}}">Activate Account</a>
+            <p>If you did not request this account, you can ignore this message.</p>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,23 @@
+# Dockerfile para proyecto Python 3.10
+FROM python:3.10-slim
+
+# Establece el directorio de trabajo en la imagen
+WORKDIR /app
+
+# Copia el archivo de requerimientos e instala las dependencias
+COPY requirements.txt .
+RUN pip install --upgrade pip && \
+    pip install --no-cache-dir -r requirements.txt
+
+# Copia todo el código de la aplicación al contenedor
+COPY . .
+
+# Expone el puerto configurado en el servidor
+EXPOSE 8383
+
+# Define la variable de entorno para Flask si es necesario
+# (opcional, ya que puede estar en un .env)
+ENV FLASK_APP=run.py
+
+# Comando para iniciar la aplicación
+CMD ["python", "run.py"]
